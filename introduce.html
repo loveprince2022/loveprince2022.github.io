@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <!--
+@Author : The love prince
+@File   : website plus
+@Time   :2022-05-02 15:50-16:20
+@Desc   : 
+ -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人简介</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .introduce {
+        display: flex;
+        width: 1000px;
+        position: relative;
+        top: 100px;
+        background-image: url(./img/);
+      }
+      .introduce::after {
+        content: " ";
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        width: 5px;
+        z-index: -999;
+        height: 1200px;
+        background-color: orange;
+      }
+      .axis {
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .axis span {
+        color: ;
+      }
+      .left,
+      .right {
+        position: relative;
+        width: 40%;
+        height: 120px;
+        /* background-color: orange; */
+        border-radius: 15px;
+        color: ;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 700;
+      }
+      .axis:nth-child(even) .left {
+        background-color: orange;
+        box-shadow: 0, 0, 10px, rgb(0, 0, 0, 0, 3);
+      }
+      .axis:nth-child(odd) .right {
+        background-color: orange;
+        box-shadow: 0, 0, 10px, rgb(0, 0, 0, 0, 3);
+      }
+      .center {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center > span {
+        width: 120px;
+        border-radius: 10px;
+        background-color: orange;
+        text-align: center;
+        font: 700 24px "";
+        line-height: 50px;
+        letter-spacing: 1px;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="public-width">
+        <div class="nav-logo">
+          <img src="./img/head.jpg" alt="" />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li>
+              <a href="index.html" ;>首页</a>
+            </li>
+            <li class="active">
+              <a href="introduce.html">个人简介</a>
+            </li>
+            <li>
+              <a href="hobby.html">个人爱好</a>
+            </li>
+            <li>
+              <a href="works.html">个人作品</a>
+            </li>
+            <li>
+              <a href="contact.html" ,target="_blank">联系本人</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 此处多行删除方式应掌握 -->
+    <!-- 同级网页制作：active标签与原页面内容打包删除 ，最后的div处新建box-->
+    <!-- 新建的逻辑顺序：name-pubwid-ulli-img&text -->
+    <!-- html写完后转css -->
+    <div class="introduce">
+      <div class="publicwidth">
+        <div class="axis">
+          <div class="left"></div>
+          <div class="center">
+            <span>大学</span>
+          </div>
+          <div class="right">
+            2022-<br />
+            疫情居家学习<br />
+            2021-2022<br />
+            生命掀开新页<br />
+            <br />
+            考入中国传媒大学
+          </div>
+        </div>
+
+        <div class="axis">
+          <div class="left">
+            2020-2021<br />
+            继续在河北衡水中学深造学习<br />
+            无
+            <!-- 今年我20岁
+终于生命掀开新页
+尘归尘 土归土
+爬出奋进楼
+钻进象牙塔 
+
+有时常梦旧时 无论是睡是醒
+往事梦一场
+到头来 
+天各一方 各自悲欢
+记忆碎片 时光印记
+都被我藏进角落里
+现在的我 
+也难以正视 不愿回忆  -->
+          </div>
+          <div class="center">
+            <span>复读</span>
+          </div>
+          <div class="right"></div>
+        </div>
+
+        <div class="axis">
+          <div class="left"></div>
+          <div class="center">
+            <span>高中</span>
+          </div>
+          <div class="right">
+            2017-2020<br />
+            就读于河北衡水中学<br />
+            <!-- 【1】
+今年我19岁
+复读
+进医院的第四年
+
+院长能治身病 难治心病
+医者难自医 不必强求
+
+病友们不远千里求医问药 
+苦中作乐 相互扶持
+
+我是其中一员
+【2】
+ 今年我18岁
+进监狱第三年
+管教人很好
+制度条例 制霸宇宙
+狱友们鱼龙混杂 
+我也是其中一员
+拷验人性 仅此而已
+【3】
+ 今年我17岁
+进厂子第二年
+浑浑噩噩
+学校到社会
+敏感又复杂
+【4】
+今年我16岁
+进学校第一年
+眼界开阔 思想动摇
+世界远非少年模样 -->
+          </div>
+        </div>
+
+        <div class="axis">
+          <div class="left">
+            2014-2017<br />
+            就读于河北昌黎第五中学<br />
+            <!-- 【1】
+ 今年我15岁
+初中毕业啦
+去别的市第二重点高中笔试第八的成绩通过
+最令人开心的 
+通过全市重点高中面试
+拿到全省重点高中offer
+拿到全国重点高中offer
+全县唯二的天选之子
+广阔天地 大有作为
+【2】
+ 今年我14岁
+准备中考
+现在成绩稳定班里第一
+记忆中最深
+不是年级第一的往事
+是午夜淡黄色的台灯
+夜晚父亲的陪伴指导
+黎明母亲的饭菜喷香
+这一段辛苦而难忘的时光
+【3】
+今年我13岁
+开始好好学习 成绩可以拿到班里前三 年级十来名
+同桌女孩子 笑起来让人忘记烦恼忧伤
+看着同龄人嬉笑打闹 知道今生与我无缘
+【4】
+ 今年我12岁
+上初中了 县里普普通通的一所中学
+韧带受伤 离开了一步之遥的赛场
+现在只是在家看着队友同伴争金夺银 -->
+          </div>
+          <div class="center">
+            <span>初中</span>
+          </div>
+          <div class="right"></div>
+        </div>
+
+        <div class="axis">
+          <div class="left"></div>
+          <div class="center">
+            <span>童年</span>
+          </div>
+          <div class="right">
+            2002-2014 <br />
+            ---------------------------------------------------------------无忧无虑的童年时光------------------------
+            <br />
+
+            <!-- 【3】
+今年我13岁
+开始好好学习 成绩可以拿到班里前三 年级十来名
+同桌女孩子 笑起来让人忘记烦恼忧伤
+看着同龄人嬉笑打闹 知道今生与我无缘
+【4】
+ 今年我12岁
+上初中了 县里普普通通的一所中学
+韧带受伤 离开了一步之遥的赛场
+现在只是在家看着队友同伴争金夺银
+【5】
+ 今年我11岁
+接触围棋 一年半载 从入门到业余二段
+被教练训哭 一个俯卧撑都做不起来
+【6】
+今年我10岁
+开始学习跆拳道 
+琴棋书画之前都尝试过
+生活单调 物质简朴
+
+
+无忧无虑 自由自在
+这样的日子平淡而美好 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex" class="footer">
+      <div class="public-width">
+        <p></p>
+      </div>
+    </div>
+  </body>
+  <div class="footer">
+    <div class="public-width">
+      <p style="align-items: center; color: orange">
+        我曾经是个傻逼。&nbsp;&nbsp;&nbsp;&nbsp; 现在是个普通人。
+      </p>
+    </div>
+  </div>
+</html>

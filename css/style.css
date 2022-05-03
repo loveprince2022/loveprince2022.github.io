@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: ;
+
+}
+/* 主页布局*/
+.body {
+    font-size: 16px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    background: black;
+
+
+}
+
+.top {
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    ##background: red;
+    (辅助作图)
+}
+
+.top img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+}
+
+/* .top h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    letter-spacing: 3px;
+} */
+
+.bottom {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.box ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+
+}
+
+.box ul li {
+    list-style: none;
+    width: 20%;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px orange
+}
+
+.box ul li a {
+    display: flex;
+    height: 160px;
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    font-weight: 900;
+    
+
+}
+
+.box ul li img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.box ul li span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    font-size: 20px;
+}
+
+/* 导航布局 */
+.nav {
+    width: 90%;
+    /* color: #57e4e7; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: black;
+    
+}
+
+.nav ul li a {
+    /* text-decoration: none; */
+  
+
+   
+
+}
+
+.logo h3 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: orange;
+
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    color: ;
+    
+}
+
+.nav ul li a:hover {
+    color: black;
+}
+
+
+.hobby ul li {
+    display: flex;
+    justify-content: start;
+    margin: 15px 0;
+    border: 1px solid #efefef;
+
+}
+
+.hobby img {
+    width: 140px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hobby-text {
+    padding: 15px;
+}
+
+.hobby-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.hobby-text p {
+    line-height: 1.8;
+    text-indent: 2em;
+    color: orange;
+
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-size: 16px;
+    color: #333;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 3px 5px #ccc;
+    /* background-color: red; */
+
+}
+
+.public-width {
+    
+    width:100%
+    margin: auto;
+    object-fit: cover;
+
+
+}
+
+.nav .public-width {
+    /* 一个空格的血案 */
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: start;
+    /* 以上两句通常绑定出现 */
+
+
+}
+
+.nav-logo {
+    width: auto;
+    height: 60px;
+
+}
+
+.nav-logo img {
+    display: block;
+    width: auto;
+    height: 100%;
+
+}
+
+.nav-list {
+    margin-left: 80px;
+
+
+}
+
+.nav-list ul {
+    display: flex;
+    height: 100%;
+    justify-content: start;
+
+}
+
+.nav-list ul li {
+    width: auto;
+    padding: 0 20px;
+
+}
+
+.nav-list ul li a {
+    color: white
+
+}
+
+
+.box-1 {
+    margin: 20px 0;
+
+}
+
+.box-1-title {
+    border-bottom: 2px solid black;
+
+}
+
+.box-1-title h3 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: orange;
+}
+/* 空指部：以上为个人作品页面 */
+.box-1-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-1-list ul li {
+    cursor: pointer;
+    width: 23%;
+    margin: 10px 0;
+    border: 1px solid #efefef;
+
+
+}
+
+.box-1-list ul li:hover {
+    box-shadow: 2px 3px 5px #ccc;
+    /* 实现立体阴影 */
+
+}
+
+.box-1-list-img {
+    width: 100%;
+    height: 180px;
+
+}
+
+.box-1-list-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-1-list-text {
+    display: flex;
+    justify-content: space-between;
+    /* 以上两句通常绑定出现 */
+    align-items: center;
+    padding: 10px;
+
+}
+
+.box-1-t-l span {
+    color: #888;
+    font-size: 12px;
+
+}
+
+.box-1-t-r a {
+    display: inline-block;
+    color: orange;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color: black;
+    /* background: linear-gradient(270deg, black, orange); */
+    box-shadow: 0 12px 30px 0 black
+}
+.footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #333;
+    border-bottom: 0px solid black;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+
+}
+
+.nav ul .active a {
+    color: orange;
+}
