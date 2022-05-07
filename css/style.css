@@ -93,10 +93,11 @@
 
 /* 导航布局 */
 .nav {
-    width: 90%;
+    
+    width: 100%;
     /* color: #57e4e7; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px 0;
     margin: 0 auto;
     background-color: black;
@@ -184,7 +185,7 @@ a {
     width: 100%;
     height: 80px;
     box-shadow: 2px 3px 5px #ccc;
-    /* background-color: red; */
+    background-color: black;
 
 }
 
@@ -237,7 +238,7 @@ a {
 
 .nav-list ul li {
     width: auto;
-    padding: 0 20px;
+    padding: 0 10px;
 
 }
 
@@ -339,3 +340,9 @@ a {
 .nav ul .active a {
     color: orange;
 }
+/* 
+@media(max-width:600px){
+    .nav{
+        
+    }
+} */
